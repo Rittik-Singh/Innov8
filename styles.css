@@ -1,0 +1,114 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction section styling */
+#intro {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 36px;
+}
+
+#intro p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Main content section styling */
+#main-content {
+    margin: 40px 0;
+}
+
+#main-content .content {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#main-content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Call to Action (CTA) styling */
+#cta {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#cta h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+#cta .button {
+    background-color: white;
+    color: #28a745;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#cta .button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Footer section styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px 0;
+}
