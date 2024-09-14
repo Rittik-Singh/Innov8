@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main class="main">
+        <section class="bottompart">
+            <article class="picture">
+                <img src="plasticwaste.png" class="registration" alt="Plastic Disposal Registration Image">
+            </article>
+
+            <article class="formpart">
+                <form>
+                    <h2>Register to Plastic Disposal</h2>
+
+                    <label for="name">Name*</label>
+                    <input class="inputbox" name="name" type="text" placeholder="e.g, Binary Programmer"
+                        autocomplete="name" required>
+
+                    <label for="city">City*</label>
+                    <select class="inputbox" name="city" id="city" required>
+                        <option value="">Select City</option>
+                        <option>Kolkata</option>
+                        <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Other</option>
+                    </select>
+
+                    <label for="email">E-mail*</label>
+                    <input class="inputbox" type="email" name="email" placeholder="e.g, johndoe@gmail.com"
+                        autocomplete="email" required>
+
+                    <label for="address">Address*</label>
+                    <input class="inputbox" type="text" name="address" placeholder="e.g, 123 Street, City"
+                        autocomplete="street-address" required>
+
+                    <label for="contact">Contact No.*</label>
+                    <input class="inputbox" type="tel" name="contact" placeholder="e.g, +91 9876543210"
+                        autocomplete="tel" required>
+
+                    <input type="checkbox" class="agree" checked>
+                    <label for="agree" class="privacy_policy">By clicking the submit button, you agree to our
+                        <span>Terms & Conditions</span> and <span>Privacy Policy</span>.</label>
+
+                    <button class="submitbtn">Submit</button>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+.pic {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 1000%;
+}
+
+.bottompart {
+    width: 70rem;
+    margin: 0 auto;
+    background: #90EE90;
+    position: relative;
+    top: 7rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #79f81f8c;
+    display: flex;
+    flex-direction: row;
+}
+
+.picture {
+    width: 50rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.registration {
+    width: 20rem;
+    height: 25rem;
+    border-radius: 100%;
+}
+
+.formpart {
+    width: 35rem;
+    border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 2rem 2rem 4rem;
+}
+
+h2 {
+    color: #e71717;
+    font-size: 1.9rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+label {
+    font-size: 1.2rem;
+    color: grey;
+    font-weight: 400;
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.inputbox {
+    width: 26rem;
+    padding: 0.5rem;
+    border: 2px solid #b9b6b6;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.options {
+    width: 25rem;
+    padding: 1rem;
+    border: 2px solid #b9b6b6;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+}
+
+input[type=checkbox] {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.privacy_policy {
+    font-size: 0.9rem;
+    color: #a29b9b;
+    font-weight: 400;
+    max-width: 28rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.privacy_policy span {
+    color: #4fa3ca;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submitbtn {
+    width: 13rem;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    color: white;
+    background: #3F51B5;
+    border: 0;
+    outline: 0;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.submitbtn:hover {
+    transform: scale(1.02) translateY(-2px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
